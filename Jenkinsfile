@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clean Maven Repository') {
             steps {
-                bat 'mvn dependency:purge-local-repository'
+                bat './mvnw dependency:purge-local-repository'
             }
         }
         stage('Build') {
