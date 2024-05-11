@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalidadJenkinsApplication {
+public class CalidaJenkinsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CalidadJenkinsApplication.class, args);
+		SpringApplication.run(CalidaJenkinsApplication.class, args);
 	}
 
 }
